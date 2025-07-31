@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- SEO Meta Tags -->
+    <meta
+      name="description"
+      content="Learn 10 easy and delicious ways to bake chicken in 2018."
+    />
+    <meta name="robots" content="index, follow" />
+    <meta name="author" content="Your Name" />
+    <meta name="keywords" content="baking, chicken, recipe, easy, 2018" />
+    <title>10 Ways to Bake Chicken in 2018</title>
+    <link
+      rel="canonical"
+      href="https://www.example.com/baking/chicken-in-2018"
+    />
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="10 Ways to Bake Chicken in 2018" />
+    <meta
+      property="og:description"
+      content="Learn 10 easy and delicious ways to bake chicken in 2018."
+    />
+    <meta
+      property="og:url"
+      content="https://www.example.com/baking/chicken-in-2018"
+    />
+    <meta property="og:image" content="images/chicken-og.jpg" />
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header>
+      <h1>10 Ways to Bake Chicken in 2018</h1>
+    </header>
+
+    <!-- Main Content Section -->
+    <main>
+      <section>
+        <h2>1. Herb Roasted Chicken</h2>
+
+        <!-- Responsive and Lazy-loaded Image -->
+        <picture>
+          <source
+            srcset="images/chicken-mobile.jpg"
+            media="(max-width:600px)"
+          />
+          <source
+            srcset="images/chicken-desktop.jpg"
+            media="(min-width:601px)"
+          />
+          <img
+            src="images/chicken-desktop.jpg"
+            alt="Herb roasted chicken in oven tray"
+            loading="lazy"
+          />
+        </picture>
+
+        <p>
+          This classic recipe uses rosemary, thyme and garlic for a fragrant and
+          flavourful meal.
+        </p>
+        <a href="recipes.html">Check out our chicken recipes</a>
+      </section>
+
+      <!-- Lazy Loaded Video -->
+      <section>
+        <h2>Watch the Recipe</h2>
+        <video
+          controls
+          preload="none"
+          poster="images/video-thumbnail.jpeg"
+          loading="lazy"
+        >
+          <source src="videos/chicken-video.mp4" type="video/mp4" />
+          <source src="videos/chicken-recipe.ogg" type="video/ogg" />
+          Your browser does not support the video tag.
+        </video>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2025 Chicken Recipes. All rights reserved.</p>
+      <a href="privacy.html">Privacy Policy</a>
+    </footer>
+  </body>
+</html>
